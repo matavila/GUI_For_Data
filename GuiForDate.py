@@ -6,7 +6,7 @@ from tkinter import filedialog
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+# ====================================== Funções =======================================
 def Gerar_Grafico_Cidade():
     # Trazendo os valores por cidade
     Grupo_Cidade = Dataframe.groupby('City')
@@ -252,7 +252,7 @@ def limpar_tabela():
         tree.column(coluna, width=0)
     tree['columns'] = []
 
-
+# ==========================================================================================
 # Configuração inicial da janela principal
 root = tk.Tk()
 
